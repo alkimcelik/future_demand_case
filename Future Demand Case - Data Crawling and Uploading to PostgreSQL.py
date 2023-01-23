@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[17]:
 
 
 import numpy as np
 import pandas as pd
+from datetime import datetime
 from sqlalchemy import create_engine
 import requests
 from bs4 import BeautifulSoup
@@ -57,7 +58,8 @@ df = pd.DataFrame(list(zip(date, title, artists, time, location, program, image_
 # Datetime operations
 df["Day"] = df["Date"].str.split(" ",expand=True)[0]
 df["Date"] = df["Date"].str.split(" ",expand=True)[1]
-df["Date"] = pd.to_datetime(df["Date"]+"2023",  dayfirst = True)
+df["Time"] = pd.to_datetime(df["Date"]+"2023" + " " + df["Time"], format = '%d.%m.%Y %H.%M')
+df["Date"] = df["Date"]+"2023"
 
 # Final result
 df = df[["Date","Day", "Title", "Artists", "Time", "Location", "Program", "Image_Link"]]
@@ -67,4 +69,10 @@ engine = create_engine('postgresql://postgres:future.demand1234@localhost:5432/p
 
 #Uploading data to db
 df.to_sql('future_demand_case_alkim', engine, if_exists='replace', index = False)
+
+
+# In[ ]:
+
+
+
 
