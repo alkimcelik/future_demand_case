@@ -6,4 +6,4 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 - Crawled Data [CSV](https://github.com/alkimcelik/future_demand_case/blob/main/crawled_data.csv)
 - Uploading data into PostgreSQL [Python](https://github.com/alkimcelik/future_demand_case/blob/main/uploading_data_to_postgresql.py)
 - Data in PostgreSQL [SQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
-- Docker instructions
+- Docker instructions for data crawling
