@@ -6,7 +6,7 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 
 - Data Crawling Code [Python](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling.py)
 - Crawled Data [CSV](https://github.com/alkimcelik/future_demand_case/blob/main/crawled_data.csv)
-- [Dockerfile](https://github.com/alkimcelik/future_demand_case/blob/main/Dockerfile) used iin building the docker
+- [Dockerfile](https://github.com/alkimcelik/future_demand_case/blob/main/Dockerfile) used in building the docker
 - [Scripts](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling_docker_instructions.md) for building and pushing the docker into Docker Hub
 - You can pull docker with ```docker pull alkimcelik/data_crawling``` 
 
