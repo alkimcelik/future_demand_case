@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[17]:
-
-
 import numpy as np
 import pandas as pd
 from datetime import datetime
@@ -64,11 +58,7 @@ df["Date"] = df["Date"]+"2023"
 # Final result
 df = df[["Date","Day", "Title", "Artists", "Time", "Location", "Program", "Image_Link"]]
 print(df)
-#Creating an engine to upload data to PostgreSQL database
-#engine = create_engine('postgresql://postgres:future.demand1234@localhost:5432/postgres')
 
-#Uploading data to db
-#df.to_sql('future_demand_case_alkim', engine, if_exists='replace', index = False)
 
 
 
