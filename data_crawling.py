@@ -52,8 +52,8 @@ df = pd.DataFrame(list(zip(date, title, artists, time, location, program, image_
 # Datetime operations
 df["Day"] = df["Date"].str.split(" ",expand=True)[0]
 df["Date"] = df["Date"].str.split(" ",expand=True)[1]
-df["Time"] = pd.to_datetime(df["Date"]+"2023" + " " + df["Time"], format = '%d.%m.%Y %H.%M')
-df["Date"] = df["Date"]+"2023"
+df["Date"] = pd.to_datetime(df["Date"]+"2023", dayfirst = True).dt.date
+df["Time"] = pd.to_datetime(df["Time"], format = '%H.%M').dt.time
 
 # Final result
 df = df[["Date","Day", "Title", "Artists", "Time", "Location", "Program", "Image_Link"]]
