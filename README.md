@@ -14,4 +14,5 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 
 - Uploading data into PostgreSQL [Python](https://github.com/alkimcelik/future_demand_case/blob/main/uploading_data_to_postgresql.py)
 - Data in [PostgreSQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
+- Dockerfile
 - Scripts for building PostgreSQL docker and pushing it ito Docker Hub
