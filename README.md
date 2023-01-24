@@ -13,5 +13,5 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 # Uploading into PostgreSQL
 
 - Uploading data into PostgreSQL [Python](https://github.com/alkimcelik/future_demand_case/blob/main/uploading_data_to_postgresql.py)
-- Data in PostgreSQL [SQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
-- Instructions for pulling 
+- Data in [PostgreSQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
+- Scripts 
