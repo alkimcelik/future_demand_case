@@ -17,7 +17,7 @@ url = "https://www.lucernefestival.ch/en/program/summer-festival-23"
 response = requests.get(url)
 
 # Parse the HTML content
-soup = BeautifulSoup(response.content)
+soup = BeautifulSoup(response.content, features="html.parser")
 events = soup.find_all("div", class_="event-content")
 
 # Find all event elements
@@ -63,15 +63,15 @@ df["Date"] = df["Date"]+"2023"
 
 # Final result
 df = df[["Date","Day", "Title", "Artists", "Time", "Location", "Program", "Image_Link"]]
-
+print(df)
 #Creating an engine to upload data to PostgreSQL database
-engine = create_engine('postgresql://postgres:future.demand1234@localhost:5432/postgres')
+#engine = create_engine('postgresql://postgres:future.demand1234@localhost:5432/postgres')
 
 #Uploading data to db
-df.to_sql('future_demand_case_alkim', engine, if_exists='replace', index = False)
+#df.to_sql('future_demand_case_alkim', engine, if_exists='replace', index = False)
 
 
-# In[ ]:
+
 
 
 
