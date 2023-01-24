@@ -1,6 +1,6 @@
-Firstly, we open the terminal and write this script to work on this directory.
+Firstly, we open the terminal and write this script to work on this directory. This is my directory. It should be changed according to the docker directory.
 ```
-cd C:\Users\alkim\OneDrive\Documents
+cd C:\Users\alkim\OneDrive\Documents 
 ```
 
 Then, we build the docker with the following script.
