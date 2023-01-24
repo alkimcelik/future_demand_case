@@ -7,5 +7,8 @@ Then, you can run the docker with the following script.
 ```
 docker run alkimcelik/data_crawling
 ```
-
 The output is printed on the terminal, you can find the csv file in the repo.
+Lastly, we push the docker into Docker Hub, so it can be public and accessible from everyone.
+```
+docker tag data_crawling alkimcelik/data_crawling
+```
