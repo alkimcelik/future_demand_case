@@ -8,7 +8,7 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 - Crawled Data [CSV](https://github.com/alkimcelik/future_demand_case/blob/main/crawled_data.csv)
 - [Dockerfile](https://github.com/alkimcelik/future_demand_case/blob/main/Dockerfile)
 - [Scripts](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling_docker_instructions.md) for building and pushing the docker into Docker Hub
-- [Instructions](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling_docker_instructions.md) for pulling docker from Hub
+- 
 
 # Uploading into PostgreSQL
 
