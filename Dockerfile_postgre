@@ -1,5 +1,10 @@
 FROM postgres:latest
+<<<<<<< HEAD
 ENV POSTGRES_USER postgres
 #password is given in the email
 ENV POSTGRES_PASSWORD future.demand1234
+=======
+ENV POSTGRES_USER postgres 
+ENV POSTGRES_PASSWORD [password] # Password is given in the email.
+>>>>>>> c4f5510a2d84debe7d4df80c7c72bf48918a14eb
 ENV POSTGRES_DB postgres
