@@ -7,10 +7,12 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 - Data Crawling Code [Python](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling.py)
 - Crawled Data [CSV](https://github.com/alkimcelik/future_demand_case/blob/main/crawled_data.csv)
 - [Dockerfile](https://github.com/alkimcelik/future_demand_case/blob/main/Dockerfile)
-- [Scripts]( for pushing the docker
+- [Scripts](https://github.com/alkimcelik/future_demand_case/blob/main/building_docker_data_crawling.md) for building and pushing the docker into Docker Hub
 - [Instructions](https://github.com/alkimcelik/future_demand_case/blob/main/data_crawling_docker_instructions.md) for pulling docker from Hub
 
+# Uploading into PostgreSQL
 
 - Uploading data into PostgreSQL [Python](https://github.com/alkimcelik/future_demand_case/blob/main/uploading_data_to_postgresql.py)
-- Data in PostgreSQL [SQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
-- Instructions for pulling 
+- Data in [PostgreSQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
+- Dockerfile
+- Scripts for building PostgreSQL docker and pushing it ito Docker Hub
