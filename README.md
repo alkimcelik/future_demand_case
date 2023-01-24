@@ -15,4 +15,5 @@ In this project, events from this [website](https://www.lucernefestival.ch/en/pr
 - Uploading data into PostgreSQL [Python](https://github.com/alkimcelik/future_demand_case/blob/main/uploading_data_to_postgresql.py)
 - Data in [PostgreSQL](https://github.com/alkimcelik/future_demand_case/blob/main/future_demand_case_alkim.sql)
 - [Dockerfile](https://github.com/alkimcelik/future_demand_case/blob/main/Dockerfile_postgre)
-- [Scripts]() for building PostgreSQL docker and pushing it ito Docker Hub
+- [Scripts](https://github.com/alkimcelik/future_demand_case/blob/main/building_docker_postgresql.md) for building PostgreSQL docker and pushing it ito Docker Hub
+- You can pull docker with ```docker pull alkimcelik/postgres```
