@@ -24,8 +24,3 @@ Lastly, we push the docker into Docker Hub, so it can be public and accessible f
 docker push alkimcelik/data_crawling
 ```
 
-You can pull docker from [Docker Hub](https://hub.docker.com/r/alkimcelik/data_crawling) into terminal then run it.
-```
-docker pull alkimcelik/data_crawling
-docker run alkimcelik/data_crawling
-```
